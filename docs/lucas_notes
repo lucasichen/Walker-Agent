@@ -5,8 +5,8 @@
 
 ## Intro
 
-Reinforcement learning has demonstrated remarkable progress, achieving high levels of performance in Atari games [1], 3D navigation tasks [2, 3], 
-and board games [4]. What is common among these tasks is that there is a well-defined reward function, such as the game score, which can be optimised
+Reinforcement learning has demonstrated remarkable progress, achieving high levels of performance in Atari games, 3D navigation tasks, 
+and board games. What is common among these tasks is that there is a well-defined reward function, such as the game score, which can be optimised
 to produce the desired behaviour.
 
 Reward engineering has led to a number of successful demonstrations of locomotion behaviour, however, these examples are known to be brittle: they 
