@@ -21,6 +21,7 @@ The agent is presented with an implicit curriculum as its capabilities grow, all
 ## Large scale reinforcement with Distributed PPO
 
 Robust policy gradients with Proximal Policy Optimization:
+
  ![image](https://imgur.com/8Z2fI9J.png)
 
 Scalable reinforcement learning with Distributed PPO To achieve good performance in rich, simulated environments, we have implemented a distributed 
