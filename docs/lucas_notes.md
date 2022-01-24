@@ -49,7 +49,7 @@ Memory reacher: A random-target reaching task with a simple 2 DoF robotic arm co
 ### Training environments
 
 In order to expose our agents to a diverse set of locomotion challenges we use a physical simulation environment roughly analogous to a platform game,
-again implemented in Mujoco [21].
+again implemented in Mujoco.
 
 Bodies: We consider three different torque-controlled bodies, described roughly in terms of increasing complexity. Planar walker: a simple walking 
 body with 9 DoF and 6 actuated joints constrained to the plane. Quadruped: a simple three-dimensional quadrupedal body with 12 DoF and 8 actuated joints.
