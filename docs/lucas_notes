@@ -50,7 +50,7 @@ Memory reacher: A random-target reaching task with a simple 2 DoF robotic arm co
 In order to expose our agents to a diverse set of locomotion challenges we use a physical simulation environment roughly analogous to a platform game,
 again implemented in Mujoco [21].
 
-Bodies **:** We consider three different torque-controlled bodies, described roughly in terms of increasing complexity. Planar walker: a simple walking 
+Bodies: We consider three different torque-controlled bodies, described roughly in terms of increasing complexity. Planar walker: a simple walking 
 body with 9 DoF and 6 actuated joints constrained to the plane. Quadruped: a simple three-dimensional quadrupedal body with 12 DoF and 8 actuated joints.
 
 Humanoid: a three-dimensional humanoid with 21 actuated dimensions and 28 DoF.
@@ -84,7 +84,7 @@ is, of course, minuscule when all hurdles are very tall. We verify this by train
 stationary statistics with high- and low hurdles being randomly interleaved. In the second terrain the difficulty, as given by the minimum and maximum height of the 
 hurdles, increases gradually over the length of the course.
 
-Humanoid **:** final set of experiments considers the 28-DoF Humanoid, a considerably more complex body than Planar Walker and Quadruped
+Humanoid: final set of experiments considers the 28-DoF Humanoid, a considerably more complex body than Planar Walker and Quadruped
 
 ![](https://imgur.com/j1Sy0NH)
 
