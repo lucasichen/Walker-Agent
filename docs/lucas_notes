@@ -1,25 +1,5 @@
 # Emergence of Locomotion Behaviours in Rich Environments
 
-# Table of Contents
-
-[Intro 3](#_Toc93937168)
-
-[Large scale reinforcement with Distributed PPO 3](#_Toc93937169)
-
-[Evaluation of Distributed PPO 4](#_Toc93937170)
-
-[Benchmark tasks 4](#_Toc93937171)
-
-[Methods: environments and models 4](#_Toc93937172)
-
-[Training environments 4](#_Toc93937173)
-
-[Results 5](#_Toc93937174)
-
-[Planar Walker 5](#_Toc93937175)
-
-[Quadruped 5](#_Toc93937176)
-
 ## Intro
 
 Reinforcement learning has demonstrated remarkable progress, achieving high levels of performance in Atari games [1], 3D navigation tasks [2, 3], 
