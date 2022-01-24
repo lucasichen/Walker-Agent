@@ -21,12 +21,12 @@ The agent is presented with an implicit curriculum as its capabilities grow, all
 ## Large scale reinforcement with Distributed PPO
 
 Robust policy gradients with Proximal Policy Optimization:
- ![]()
+ ![image](https://imgur.com/8Z2fI9J)
 
 Scalable reinforcement learning with Distributed PPO To achieve good performance in rich, simulated environments, we have implemented a distributed 
 version of the PPO algorithm (DPPO). Data collection and gradient calculation are distributed over workers.
 
-![]()
+![image](https://imgur.com/IZNavoK)
 
 ## Evaluation of Distributed PPO
 
@@ -67,7 +67,7 @@ obstacles that require walking around, (e) platforms: platforms that hover above
 Planar Walker: It acquired a robust gait, learned to jump over hurdles and gaps, and to walk over or crouch underneath platforms. All of these behaviors emerged
 spontaneously, without special cased shaping rewards to induce each separate behaviour
 
-![]()
+![walker_image](https://imgur.com/Uu7rsrk)
 
 Quadruped: The quadruped is a generally less agile body than the walker but it adds a third dimension to the control problem. Learns to navigate most obstacles 
 quite reliably, with only small variations across seeds. With only minor variations across seeds, it learns to navigate most obstacles reliably. It discovers that 
@@ -75,7 +75,7 @@ jumping up or forward (with surprising accuracy in some cases) is an effective s
 left and right as needed – despite only being rewarded for moving forward in both cases. It learns to distinguish between obstacles that it can and/or must climb over
 and those that it must walk around for the variety of the hurdles-terrain.
 
-![]()
+![quad_walker](https://imgur.com/7H02Ib7)
 
 #### Analyses:
 
