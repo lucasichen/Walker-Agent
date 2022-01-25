@@ -1,4 +1,4 @@
-# MacAI-Projects-Template
+# Walker Agent
 
 ### About the Project
 
